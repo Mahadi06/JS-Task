@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="whole">
+
+        <div class="all-products">
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+            </div>
+            <div class="products">
+            </div>
+
+        </div>
+        <div class="options">
+            <div class="text-options">
+                <span>Dhanmondi | Register | New Sale</span>
+            </div>
+            <div class="btn-options">
+                <div>Options</div>
+                <div>New Sale</div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="add-customer">
+                <i class="fa-solid fa-user"></i>
+                <span>Add Customer</span>
+            </div>
+            <div class="cart-products">
+
+
+            </div>
+            <div class="receipt">
+                <div class="discount flx">
+                    <span>Discount</span>
+                    <span>BDT0.00</span>
+                </div>
+                <div class="subtotal flx">
+                    <span>Subtotal</span>
+                    <span>BDT <span id="subtotal">0</span></span>
+                </div>
+                <div class="tax flx">
+                    <span>Tax</span>
+                    <span>BDT0.00</span>
+                </div>
+                <div class="flx">
+                    <span>Total</span>
+                    <span>BDT <span id="total">0.00</span></span>
+                </div>
+                <div class="pay flx">
+                    <button class="pay-btn">PAY</button>
+                    <span>BDT <span class="total" id="pay">0.00</span></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
