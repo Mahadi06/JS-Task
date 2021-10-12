@@ -86,8 +86,8 @@ window.addEventListener("DOMContentLoaded", addToCart);
 
 var addedId = [];
 
+// add to cart functionality
 function addToCart() {
-
 
     const cards = document.querySelectorAll('.card');
     const cartProducts = document.querySelector('.cart-products');
@@ -135,10 +135,9 @@ function addToCart() {
 
     }
 
-
 }
-//Remove from cart
 
+//Remove from cart
 function deleteBtnAcivated() {
     const deleteBtn = document.querySelectorAll('.cart-delete');
 
@@ -173,7 +172,7 @@ function increaseQuantity(id) {
     }
 }
 
-
+// total price calculation
 function calculateTotal() {
 
     const cartProducts = document.querySelectorAll(".single-product");
@@ -195,16 +194,14 @@ function calculateTotal() {
 
 }
 
+
 function updateStyle() {
     const allProducts = document.querySelector('.all-products');
     const options = document.querySelector('.options');
     const cart = document.querySelector('.cart');
-
-
 
     allProducts.style.width = "65%";
     options.style.width = "65%";
     cart.style.display = "block";
 
 }
-//window.addEventListener("DOMContentLoaded", updateStyle);
